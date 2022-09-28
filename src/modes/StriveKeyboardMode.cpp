@@ -26,7 +26,6 @@ void StriveKeyboardMode::UpdateKeys(InputState &inputs) {
     Press(HID_KEY_S, inputs.c_left);
     Press(HID_KEY_T, inputs.c_right);
     // Bind both A and mod X to U, so you can bind jump on both thumbs, mimicking the Hitbox layout somewhat.
-    Press(HID_KEY_U, inputs.a);
-    Press(HID_KEY_U, inputs.mod_x);
+    Press(HID_KEY_U, inputs.a || inputs.mod_x);
     Press(HID_KEY_V, inputs.c_down);
 }

@@ -133,6 +133,7 @@ The default controller mode button combinations are:
 
 Default keyboard mode button combinations:
 - Mod Y + Start + L - Default keyboard mode
+- Mod Y + Start + Right - Custom Hitbox-style keyboard mode (both mod X and A bound to the same key, for binding jump on either hand akin to a Hitbox)
 
 ### Dolphin setup
 
